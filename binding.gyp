@@ -2,7 +2,7 @@
   "targets": [
     {
       "target_name": "yyjson",
-      "sources": [ "lib/addon.cc", "lib/yyjson.c" ],
+      "sources": [ "src/addon.cc", "src/yyjson.c" ],
       "include_dirs": [
         "<!@(node -p \"require('node-addon-api').include\")"
       ],

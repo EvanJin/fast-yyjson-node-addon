@@ -1,12 +1,20 @@
 {
   "name": "fast-yyjson-node-addon",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "yyjson node addon",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "keywords": [
+    "nodejs",
+    "addon",
+    "json",
+    "yyjson",
+    "typescript"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:ts": "tsc",
+    "test": "node test/parse.js"
   },
-  "keywords": [],
   "author": "evans <evansjin324@gmail.com>",
   "license": "MIT",
   "dependencies": {
@@ -16,6 +24,7 @@
   "devDependencies": {
     "@types/node": "^22.7.3",
     "node-addon-api": "^8.1.0",
+    "ts-node": "^10.9.2",
     "typescript": "^5.6.2"
   },
   "gypfile": true
