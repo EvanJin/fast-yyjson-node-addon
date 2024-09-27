@@ -1,0 +1,22 @@
+{
+  "name": "fast-yyjson-node-addon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "evans <evansjin324@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "node-gyp": "^10.2.0"
+  },
+  "repository": "git@github.com:EvanJin/fast-yyjson-node-addon.git",
+  "devDependencies": {
+    "@types/node": "^22.7.3",
+    "node-addon-api": "^8.1.0",
+    "typescript": "^5.6.2"
+  },
+  "gypfile": true
+}
